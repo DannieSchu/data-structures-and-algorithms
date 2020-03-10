@@ -1,6 +1,6 @@
 const { map } = require('../challenges/arrayMap/array-map.js');
 
-describe('basic validation of strings', () => {
+describe('validation of array iteration', () => {
   it('determines whether function is iterating over each item in the array', () => {
     const func = (num) => {
       return num * 2;
