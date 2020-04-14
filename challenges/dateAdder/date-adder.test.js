@@ -19,6 +19,6 @@ describe('date adder', () => {
     const date = new Date('1987-08-13T06:15:20.135Z');
     const diff = '55m';
 
-    expect(add(date, diff)).toEqual(new Date ('1987-08-13T07:10:45.135Z'));
+    expect(add(date, diff)).toEqual(new Date ('1987-08-13T07:10:20.135Z'));
   });
 });

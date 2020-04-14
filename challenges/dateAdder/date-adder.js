@@ -17,6 +17,9 @@ const add = (date, diff) => {
   if(operator === 's') {
     date.setSeconds(date.getSeconds() + val);
   }
+  if(operator === 'm') {
+    date.setMinutes(date.getMinutes() + val);
+  }
   if(operator === 'h') {
     date.setHours(date.getHours() + val);
   }
