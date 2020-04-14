@@ -23,6 +23,9 @@ const add = (date, diff) => {
   if(operator === 'h') {
     date.setHours(date.getHours() + val);
   }
+  if(operator === 'd') {
+    date.setDate(date.getDate() + val);
+  }
   return date;
 };
 
