@@ -17,17 +17,20 @@ const add = (date, diff) => {
   if(operator === 's') {
     date.setSeconds(date.getSeconds() + val);
   }
-  if(operator === 'm') {
+  else if(operator === 'm') {
     date.setMinutes(date.getMinutes() + val);
   }
-  if(operator === 'h') {
+  else if(operator === 'h') {
     date.setHours(date.getHours() + val);
   }
-  if(operator === 'd') {
+  else if(operator === 'd') {
     date.setDate(date.getDate() + val);
   }
-  if(operator === 'w') {
+  else if(operator === 'w') {
     date.setDate(date.getDate() + (7 * val));
+  }
+  else if(operator === 'M') {
+    date.setMonth(date.getMonth() + val);
   }
   return date;
 };
