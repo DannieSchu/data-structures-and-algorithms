@@ -36,10 +36,17 @@ describe('date adder', () => {
     expect(add(date, diff)).toEqual(new Date ('1987-08-27T06:15:20.135Z'));
   });
 
-  it.only('adds months to the date', () => {
+  it('adds months to the date', () => {
     const date = new Date('1987-08-13T06:15:20.135Z');
     const diff = '5M';
 
     expect(add(date, diff)).toEqual(new Date ('1988-01-13T07:15:20.135Z'));
+  });
+
+  it.only('adds years to the date', () => {
+    const date = new Date('1987-08-13T06:15:20.135Z');
+    const diff = '33y';
+
+    expect(add(date, diff)).toEqual(new Date ('2020-08-13T06:15:20.135Z'));
   });
 });
