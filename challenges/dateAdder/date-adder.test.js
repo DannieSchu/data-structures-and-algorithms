@@ -14,4 +14,11 @@ describe('date adder', () => {
 
     expect(add(date, diff)).toEqual(new Date ('1987-08-13T06:15:45.135Z'));
   });
+
+  it('adds minutes to the date', () => {
+    const date = new Date('1987-08-13T06:15:20.135Z');
+    const diff = '55m';
+
+    expect(add(date, diff)).toEqual(new Date ('1987-08-13T07:10:45.135Z'));
+  });
 });
