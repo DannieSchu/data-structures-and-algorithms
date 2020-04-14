@@ -8,16 +8,16 @@ e.g. 10d would add ten days
 
 
 const add = (date, diff) => {
-  // separate 'diff' string into array containing two strings
-  //    const [val, operator] = diff; 
-  // turn val into number
-  // modify date conditionally
-  //  if(operator === h) {
-  //    date.setHours(date.getHours() + val)
-  // }
-
-  // return new date with diff added to original date
-
+  // use destructuring somehow to split diff into array of two strings?
+  // const [str, operator] = diff; 
+  // use regex to split array into two strings?
+  // const str = diff.split(/[a-z]/);
+  const operator = diff.charAt(diff.length - 1);
+  const val = Number(diff.substring(0, diff.length - 1));
+  if(operator === 'h') {
+    date.setHours(date.getHours() + val);
+  }
+  return date;
 };
 
 module.exports = { add };
