@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1583908636237" clover="3.2.0">
-  <project timestamp="1583908636237" name="All files">
-    <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="15" coveredelements="15" complexity="0" loc="13" ncloc="13" packages="2" files="2" classes="2"/>
+<coverage generated="1586838392054" clover="3.2.0">
+  <project timestamp="1586838392055" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="18" coveredelements="18" complexity="0" loc="15" ncloc="15" packages="3" files="3" classes="3"/>
     <package name="arrayMap">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="array-map.js" path="/Users/danielleschumaker/alchemy/career-track/data-structures-and-algorithms/challenges/arrayMap/array-map.js">
@@ -25,6 +25,14 @@
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="dateAdder">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="date-adder.js" path="/Users/danielleschumaker/alchemy/career-track/data-structures-and-algorithms/challenges/dateAdder/date-adder.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
       </file>
     </package>
   </project>
