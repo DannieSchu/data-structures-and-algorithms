@@ -14,6 +14,9 @@ const add = (date, diff) => {
   // const str = diff.split(/[a-z]/);
   const operator = diff.charAt(diff.length - 1);
   const val = Number(diff.substring(0, diff.length - 1));
+  if(operator === 's') {
+    date.setSeconds(date.getSeconds() + val);
+  }
   if(operator === 'h') {
     date.setHours(date.getHours() + val);
   }
