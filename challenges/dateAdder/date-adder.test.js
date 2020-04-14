@@ -22,10 +22,17 @@ describe('date adder', () => {
     expect(add(date, diff)).toEqual(new Date ('1987-08-13T16:15:20.135Z'));
   });
 
-  it.only('adds days to the date', () => {
+  it('adds days to the date', () => {
     const date = new Date('1987-08-13T06:15:20.135Z');
     const diff = '30d';
 
     expect(add(date, diff)).toEqual(new Date ('1987-09-12T06:15:20.135Z'));
+  });
+
+  it.only('adds weeks to the date', () => {
+    const date = new Date('1987-08-13T06:15:20.135Z');
+    const diff = '2w';
+
+    expect(add(date, diff)).toEqual(new Date ('1987-08-27T06:15:20.135Z'));
   });
 });
