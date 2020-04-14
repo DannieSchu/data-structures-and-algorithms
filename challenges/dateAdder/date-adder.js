@@ -32,6 +32,9 @@ const add = (date, diff) => {
   else if(operator === 'M') {
     date.setMonth(date.getMonth() + val);
   }
+  else if(operator === 'y') {
+    date.setFullYear(date.getFullYear() + val);
+  }
   return date;
 };
 
