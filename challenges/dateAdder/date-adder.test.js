@@ -1,4 +1,4 @@
-const { add } = require('./date-adder.js');
+const add = require('./date-adder.js');
 
 describe('date adder', () => {
   it('adds seconds to the date', () => {
@@ -43,10 +43,17 @@ describe('date adder', () => {
     expect(add(date, diff)).toEqual(new Date ('1988-01-13T07:15:20.135Z'));
   });
 
-  it.only('adds years to the date', () => {
+  it('adds years to the date', () => {
     const date = new Date('1987-08-13T06:15:20.135Z');
     const diff = '33y';
 
     expect(add(date, diff)).toEqual(new Date ('2020-08-13T06:15:20.135Z'));
+  });
+
+  it('returns an error message', () => {
+    const date = new Date('1987-08-13T06:15:20.135Z');
+    const diff = '28z';
+
+    expect(add(date, diff)).toEqual('Please enter a valid operator.');
   });
 });
