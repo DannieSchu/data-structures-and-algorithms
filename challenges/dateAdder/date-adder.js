@@ -26,6 +26,9 @@ const add = (date, diff) => {
   if(operator === 'd') {
     date.setDate(date.getDate() + val);
   }
+  if(operator === 'w') {
+    date.setDate(date.getDate() + (7 * val));
+  }
   return date;
 };
 
