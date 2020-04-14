@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1586843704469" clover="3.2.0">
-  <project timestamp="1586843704469" name="All files">
-    <metrics statements="15" coveredstatements="11" conditionals="10" coveredconditionals="5" methods="1" coveredmethods="1" elements="26" coveredelements="17" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
+<coverage generated="1586843815618" clover="3.2.0">
+  <project timestamp="1586843815618" name="All files">
+    <metrics statements="15" coveredstatements="10" conditionals="10" coveredconditionals="5" methods="1" coveredmethods="1" elements="26" coveredelements="16" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
     <file name="date-adder.js" path="/Users/danielleschumaker/alchemy/career-track/data-structures-and-algorithms/challenges/dateAdder/date-adder.js">
-      <metrics statements="15" coveredstatements="11" conditionals="10" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <metrics statements="15" coveredstatements="10" conditionals="10" coveredconditionals="5" methods="1" coveredmethods="1"/>
       <line num="10" count="1" type="stmt"/>
       <line num="15" count="1" type="stmt"/>
       <line num="16" count="1" type="stmt"/>
@@ -16,7 +16,7 @@
       <line num="26" count="1" type="cond" truecount="1" falsecount="1"/>
       <line num="27" count="0" type="stmt"/>
       <line num="29" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="30" count="1" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
       <line num="32" count="1" type="stmt"/>
       <line num="35" count="1" type="stmt"/>
     </file>
