@@ -405,7 +405,7 @@ describe('revenue conversion', () => {
       }
     ];
 
-    expect(revenue(timestamps)).toEqual({
+    expect(revenue(timestamps)).toContainEqual({
       'Thu Jul 18 2019': 25,
       'Thu Jul 04 2019': 47,
       'Tue Jul 09 2019': 18,
