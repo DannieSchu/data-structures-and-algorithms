@@ -31,6 +31,14 @@
                  date.setHours(date.getHours() + val)
               }
         4. return the date
+  * dailyRevenue
+    * Write a function that takes in an array of timestamps and the price of an object sold and returns an object containing a date string as the key and the daily revenue as the value
+      * Solution
+        1. Iterate over each item in the timestamps array
+        2. Convert item's timestamp property to date string
+        3. If there is any revenue for a certain date, add value of price property to it
+        4. Otherwise, set accumulator equal to price
+
    
 
 
