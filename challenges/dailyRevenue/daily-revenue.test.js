@@ -405,7 +405,7 @@ describe('revenue conversion', () => {
       }
     ];
 
-    expect(revenue(timestamps).toEqual({
+    expect(revenue(timestamps)).toEqual({
       'Thu Jul 18 2019': 25,
       'Thu Jul 04 2019': 47,
       'Tue Jul 09 2019': 18,
@@ -434,6 +434,6 @@ describe('revenue conversion', () => {
       'Mon Jul 15 2019': 18,
       'Tue Jul 02 2019': 11,
       'Tue Jul 16 2019': 9
-    }));
+    });
   });
 });
