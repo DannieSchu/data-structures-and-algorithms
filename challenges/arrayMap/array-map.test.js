@@ -1,4 +1,4 @@
-const { map } = require('../challenges/arrayMap/array-map.js');
+const { map } = require('./array-map.js');
 
 describe('validation of array iteration', () => {
   it('determines whether function is iterating over each item in the array', () => {
