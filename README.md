@@ -21,6 +21,16 @@
            2. decrement i while it is greater than the middle index
            3. when reach middle index, set value equal to input
         3. return array
+  * dateAdder
+    * Write a function that takes in a date object and a diff (a string with the format '10d' representing 10 days) and returns the date plus the diff
+      * Solution
+        1. separate 'diff' into array containing two strings
+        2. turn the value into a number
+        3. modify the date conditionally
+           1. if(operator === h) {
+                 date.setHours(date.getHours() + val)
+              }
+        4. return the date
    
 
 
