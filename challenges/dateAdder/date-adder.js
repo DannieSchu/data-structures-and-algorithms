@@ -10,7 +10,7 @@ module.exports = (date, diff) => {
   else if(operator === 'M') date.setMonth(date.getMonth() + val);
   else if(operator === 'y') date.setFullYear(date.getFullYear() + val);
   else {
-    return 'Please enter a valid operator.';
+    throw new Error('Please enter a valid operator.');
   }
   return date;
 };
